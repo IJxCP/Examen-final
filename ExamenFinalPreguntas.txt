@@ -1,0 +1,22 @@
+Preguntas de reflexion
+
+¿Cuál es el objetivo del proyecto?
+El objetivo del proyecto es desarrollar un sistema de registro y gestión de empleados para una empresa constructora. El  sistema proporciona una herramienta para gestionar eficientemente la información laboral.
+
+¿Cómo se gestionan los datos de los empleados en el sistema?
+Los datos de los empleados se gestionan mediante una base de datos SQL Server. Los empleados son registrados a través de un formulario web donde se ingresan sus datos. El sistema valida que todos los campos estén completos antes de registrar la información en la base de datos. 
+
+¿Qué tecnología se está utilizando para el desarrollo del sistema?
+El sistema está siendo desarrollado utilizando tecnologías basadas en la plataforma ASP.NET Web Forms. Se está utilizando SQL Server para la gestión de la base de datos. La lógica de la aplicación está escrita en C# y se ejecuta en el servidor de IIS Express o IIS en el entorno de desarrollo.
+
+¿Cuál es la estructura de la base de datos y cómo está relacionada con el sistema?
+
+La base de datos tiene una tabla principal de empleados, Esta estructura está diseñada para permitir una fácil inserción, actualización, y consulta de la información de los empleados. El sistema interactúa con la base de datos mediante una capa de acceso a datos que se encarga de realizar las operaciones CRUD 
+
+¿Qué funcionalidades tiene el sistema?
+
+El sistema permite registrar nuevos empleados, editar la información existente, y mostrar los detalles de los empleados registrados. Además, cuenta con validaciones para asegurarse de que los datos ingresados sean correctos y completos antes de ser almacenados. El sistema también muestra mensajes de éxito o error al intentar registrar o modificar un empleado.
+
+¿Qué retos se han encontrado durante el desarrollo?
+
+De los retos incluyen la conexión a la base de datos y la validación de campos en el formulario
